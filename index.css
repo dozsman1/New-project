@@ -188,6 +188,12 @@ n
         
     }
 
+    .list{
+        flex-direction: column;
+    }
+
+
+
 }
 
 .section-2 .cell1 p{
@@ -424,11 +430,12 @@ n
 
 /* section-5 footer */
 
-.section5{
+/* .section5{
     
-    /* border: thin solid red; */
+    border: thin solid red;
     margin-bottom: 40px;
     display: flex;
+    flex-wrap: nowrap;
     gap: 5rem;
     padding-right: 40px;
     padding-left: 60px;
@@ -436,29 +443,37 @@ n
     
     
 }
+.sectionleft{
+    flex-wrap: wrap;
+}
 .sectionright{
     gap: 3rem;
     display: flex;
+    flex-wrap: wrap;
 
+}
+
+.item1{
+    flex-wrap: wrap;
 }
 
 
 .logo{
     display: flex;
 
-    /* border: thin solid red; */
+    border: thin solid red;
 }
 .textright h4{
     margin-top: 30px;
 }
 .list {
     padding: 20px;
-   
+    flex-wrap: wrap;
     gap: 1rem;
 }
 .item1{
     margin-bottom: 10px;
-    /* border: thin solid red; */
+    border: thin solid red;
 
     
 }
@@ -482,4 +497,4 @@ n
     width: 30px;
     margin: 10px;
     
-}
+} */
